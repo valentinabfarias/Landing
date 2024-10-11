@@ -1,0 +1,92 @@
+* {
+    padding: 0;
+    margin: 0;
+
+}
+
+body {
+    background-image: url(https://cdn.pixabay.com/photo/2019/04/08/17/18/tulips-4112431_1280.jpg);
+    background-color: #e0e4cc;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #034b23;
+
+    
+}
+
+.header {
+
+    text-align: center;
+    font-family: arial, sans-serif;
+}
+
+h1 {
+    margin-top: 5%;
+}
+
+.section h2 {
+    text-align: center;
+    margin-top: 30px;
+    border-bottom: solid 1px;
+    padding: 10px;
+    width: 50%;
+    margin-left: 25%;
+}
+
+.section {
+    text-align: center;
+}
+
+p {
+    margin-top: 5%;
+    font-size: 120%;
+    text-justify: unset;
+
+}
+
+.btn {
+
+    margin-top: 30px;
+    /* Margem de cima */
+    background-color: #034b23;
+    /* Cor de fundo */
+    color: hsl(0, 0%, 100%);
+    /* Cor da fonte */
+    padding: 15px 30px;
+    /* Espaçamento */
+    font-size: 18px;
+    /* Tamanho da fonte */
+    border: none;
+    /* Borda */
+    border-radius: 15px;
+    /* Tamanho da borda*/
+    cursor: pointer;
+    /* Cursor */
+    box-shadow: 0px 4px 6px rgba(red, green, blue, alpha);
+    /* Cor da caixa */
+    transition: background-color 1s ease, transform 1s ease;
+    /* ? */
+}
+
+.btn:hover {
+    background-color: #5fa765;
+}
+
+.info {
+    font-size: 120%;
+}
+
+@media (max-width: 768px) {
+   body {
+    background-size: 100% 140%;
+   }
+    
+
+    .main-content {
+        flex-direction: column;
+        width: 100%;
+        padding: 20;
+        position: absolute;
+        left: 0;
+    }
+}
